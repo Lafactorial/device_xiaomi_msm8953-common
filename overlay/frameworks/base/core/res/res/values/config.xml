@@ -565,4 +565,7 @@
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
     <bool name="config_dozePulsePickup">true</bool>
     <bool name="config_dozePulseTilt">true</bool>
+
+    <!-- Whether device supports gestures on fingerprint sensor -->
+    <bool name="config_supportsGesturesOnFingerprintSensor">true</bool>
 </resources>
