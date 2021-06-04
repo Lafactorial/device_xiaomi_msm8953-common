@@ -506,4 +506,8 @@
     which we the system will not show crash, ANR,
          etc. dialogs. --> 
      <string name="config_appsNotReportingCrashes">com.google.android.tts</string>
+
+    <!-- Enable Smart charging -->
+    <bool name="config_smartChargingAvailable">true</bool>
+
 </resources>
