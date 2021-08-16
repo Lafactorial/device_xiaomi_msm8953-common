@@ -146,6 +146,7 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
     android.hardware.graphics.allocator@2.0-service \
     android.hardware.graphics.mapper@2.0-impl-2.1 \
+    vendor.qti.hardware.display.mapper@2.0.vendor \
 	gralloc.msm8953
 
 PRODUCT_PACKAGES += \
