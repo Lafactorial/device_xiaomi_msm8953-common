@@ -116,7 +116,6 @@ TARGET_POWERHAL_MODE_EXT := $(COMMON_PATH)/power/power-mode.cpp
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
-TARGET_BOARD_PLATFORM := msm8953
 
 # Properties
 TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
