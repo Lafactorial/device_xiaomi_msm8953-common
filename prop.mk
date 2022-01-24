@@ -44,10 +44,6 @@ ro.qualcomm.bt.hci_transport=smd
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.sys.sf.disable_blurs=1
 
-# Bpf
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.kernel.ebpf.supported=1
-
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
 camera.display.lmax=1280x720 \
