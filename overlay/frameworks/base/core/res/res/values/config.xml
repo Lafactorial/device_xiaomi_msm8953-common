@@ -508,4 +508,7 @@
             2 - Supported with variable brightness control
     -->
     <integer name="config_deviceSupportsButtonBrightnessControl">1</integer>
+
+    <!-- System Info -->
+    <bool name="config_supportSystemInfo">true</bool>
 </resources>
