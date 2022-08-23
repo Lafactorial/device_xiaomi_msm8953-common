@@ -46,6 +46,7 @@ bluetooth.hfp.client=1 \
 qcom.bluetooth.soc=smd \
 ro.bluetooth.hfp.ver=1.7 \
 ro.qualcomm.bt.hci_transport=smd \
+bluetooth.device.class_of_device=90,2,12 \
 bluetooth.profile.asha.central.enabled?=true \
 bluetooth.profile.a2dp.source.enabled?=true \
 bluetooth.profile.avrcp.target.enabled?=true \
