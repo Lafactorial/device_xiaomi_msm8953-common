@@ -253,6 +253,10 @@ vendor/lib64/libsecureui.so|dc3ccde15c3bdbc14da9fdc63dbf30973c5fe1b1
 vendor/lib64/libsecureui_svcsock.so|a7fdcd8001d4cdd9a30eb1ccc129324c398cc203
 vendor/lib64/libssd.so|33d717f793c2579e3bd17b5ce6534cb68c12887d
 
+# FM Radio Packages (Prebuilt)
+system_ext/lib64/libfmjni.so|67a90768d10a61355702682814bd8ddaf28211fa
+system_ext/priv-app/PrebuiltFMRadio/PrebuiltFMRadio.apk|6a9b183e079d9805a496b748e4103b18a3c99fa5
+
 # Gatekeeper - from daisy
 vendor/lib/hw/gatekeeper.msm8953.so|cd04140788659ae07a50081baeb3eb2e42f37028
 vendor/lib64/hw/gatekeeper.msm8953.so|1086e5dcda7aa2bed7ac015f7850095f6199a1c2
