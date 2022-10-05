@@ -530,7 +530,7 @@
     <!-- List of comma separated package names for 
     which we the system will not show crash, ANR,
          etc. dialogs. --> 
-     <string name="config_appsNotReportingCrashes">com.google.android.tts</string>
+    <string name="config_appsNotReportingCrashes">com.google.android.tts</string>
 
     <!-- Enable Smart charging -->
     <bool name="config_smartChargingAvailable">true</bool>
@@ -544,4 +544,6 @@
     <bool name="config_button_brightness_support">true</bool>
     <integer name="config_button_brightness_default">128</integer>
 
+    <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
+    <bool name="config_swipe_up_gesture_setting_available">true</bool>
 </resources>
