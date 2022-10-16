@@ -15,10 +15,7 @@
 */
 -->
 <resources>
-    <!-- the padding on the start of the statusbar -->
-    <dimen name="status_bar_padding_start">0dp</dimen>
-
-    <!-- the padding on the end of the statusbar -->
-    <dimen name="status_bar_padding_end">3dp</dimen>
+<!-- Adjust the icon padding in status bar for rounded corners --> 
+    <dimen name="status_bar_padding_top">12px</dimen>
 </resources>
 
