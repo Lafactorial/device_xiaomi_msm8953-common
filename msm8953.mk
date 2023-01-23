@@ -299,6 +299,10 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    Remove_Packages
+
 # RIL
 PRODUCT_PACKAGES += \
     CarrierConfigOverlay \
