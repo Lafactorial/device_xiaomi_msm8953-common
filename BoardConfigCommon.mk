@@ -120,6 +120,11 @@ BOARD_SUPER_PARTITION_SIZE := $(shell expr $(BOARD_SUPER_PARTITION_CUST_DEVICE_S
 BOARD_SUPER_PARTITION_GROUPS := tissot_dynamic_partitions
 BOARD_TISSOT_DYNAMIC_PARTITIONS_SIZE := $(shell expr $(BOARD_SUPER_PARTITION_SIZE) - 4194304 )
 BOARD_TISSOT_DYNAMIC_PARTITIONS_PARTITION_LIST := odm product system system_ext vendor
+
+ifneq ($(WITH_GMS),true)
+BOARD_PRODUCTIMAGE_PARTITION_RESERVED_SIZE := 104857600 # 100 MB
+endif
+
 BOARD_ROOT_EXTRA_SYMLINKS := \
     /vendor/dsp:/dsp \
     /vendor/firmware_mnt:/firmware \
