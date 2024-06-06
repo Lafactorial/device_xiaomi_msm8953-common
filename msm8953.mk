@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+-include vendor/lineage-priv/keys/keys.mk
+
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
